@@ -1,0 +1,48 @@
+@media screen and (max-width:576px) {
+    nav{
+        text-align: center;
+        margin-top: 35px;
+        
+    }
+    nav ul{
+        display: none;
+    }
+    /* navbar done */
+  
+    /* banner starts here  */
+    .banner{
+        display: flex;
+       flex-direction: column-reverse;
+       text-align: center;
+    }
+    .banner-content-h1 {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .banner-content-p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        /* padding: 10px; */
+        margin-bottom: 10px;
+    }
+    .btn{
+        margin: auto;
+    }
+    .banner-image{
+       width: 100%;
+       margin: auto;
+     
+       background-size: 80%;
+       background-position: center;
+    }
+    .banner-image img{
+        width: 80%;
+    }
+    .logo-h2{
+        text-align: center;
+        font-size: 16px;
+    }
+
+}
